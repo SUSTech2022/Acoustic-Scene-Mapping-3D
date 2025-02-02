@@ -5,8 +5,9 @@ This repository is an upgraded version of our previous 2D framework: [I-ASM](htt
 - **`exp_data/`**: Contains all experimental data, organized by different test arrangements. Each arrangement has its own folder with relevant data files.
 - **`functions/`**: Contains all custom functions required to run the main code.
 - **`mbss_locate/`**: Includes the Sound Source Localization (SSL) MATLAB toolbox, [*Multichannel BSS Locate*](https://gitlab.inria.fr/bass-db/mbss_locate), which is used to estimate the **direction-of-arrival (DoA)** of **multiple sources** in a multichannel audio signal recorded by a microphone array.
-- **`ASM_offline/`**: Contains code to evaluate offline ASM.
-- **`ASM_online/`**: Contains code to perform online ASM.
+- **`ASM_offline_3D.m`**: Contains code to evaluate offline ASM.
+- **`ASM_online_3D.m`**: Contains code to perform online ASM.
+- **`cycle.m`**: Contains code of the _Filtering-Clustering-Implicit Association_ Cycle.
 
 ## Usage Guide
 
